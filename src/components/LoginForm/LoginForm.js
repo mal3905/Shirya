@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import UserContext from '../../contexts/UserContext'
 import AuthApiService from '../../services/auth-api-service'
+import './LoginForm.css'
 
 
 
@@ -45,10 +46,12 @@ export class LoginForm extends Component {
     render() {
         const { error } = this.state
         return (
-           <div className="login-page">
+           <div className="loginpage">
+			   <div className='flower'>
+			   </div>
 				<div className="login">
 					<Link className="login-header" to="/">
-						<h1>Shirya</h1>
+						<h1>BODHI</h1>
 					</Link>
 					<h3>Login</h3>
 					<form className={'LoginForm'} onSubmit={this.handleSubmit}>

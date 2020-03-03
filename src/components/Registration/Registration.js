@@ -47,9 +47,9 @@ export class Registration extends Component {
 			<div className="registerpage">
 				<div className="register">
 					<Link className="register-header" to="/">
-						<h1>Shirya</h1>
+						<h1>BODHI</h1>
 					</Link>
-					<h3>Register</h3>
+					<h3>Create Account</h3>
 
 					<form className="RegistrationForm" onSubmit={this.handleSubmit}>
 						<div  className="alert" role="alert">{error && <p className="error">{error}</p>}</div>
