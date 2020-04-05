@@ -1,0 +1,30 @@
+.landingpage { 
+    background-image: url("../../assets/green.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;   
+    display: flex;
+    flex-direction: column;
+} 
+
+.landingpage h1 {
+    font-family: 'Yeseva One', sans-serif ;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(25, 73, 136);
+    margin: 0px;
+}
+
+.landingpage h2 {
+    font-family: 'Yeseva One', sans-serif ;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(33, 92, 168);
+}

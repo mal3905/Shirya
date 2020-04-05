@@ -1,17 +1,13 @@
 .loginpage {
-    background-image: url('../../assets/flower.jpeg');
-    background-position: left;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(210, 210, 180);
-    padding: 20px;
-    min-height: 100vh;
+	background-image: url("../../assets/blue.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
     }
-    .loginpage html {
-        align-items: center;
-    }
-    
+
     a:link {
         text-decoration: none;
        
@@ -20,49 +16,50 @@
     .login{
         display: flex;
         flex-direction: column;
-        background-color: rgba(186, 107, 47, 0.571);
+        background-color: rgba(82, 173, 209, 0.404);
         border-radius: 20px;
         align-self: center;
         margin-left: auto;
         margin-right: auto;
-        padding: 50px;
+        padding: 30px;
+        height: 500px;
     }
 
     .loginpage h1{ 
         font-family: 'Yeseva One', sans-serif ;
         text-decoration: none;
         font-weight: bold;
-        font-size: 50px;
-        color: rgb(66, 105, 157);
+        font-size: 80px;
+        color: rgb(25, 73, 136);
     
     }
     
     .loginpage h3 {
         color: rgba(6, 5, 5, 0.749);
-        font-size: 30px;
+        font-size: 45px;
         font-weight: bold;
     }
     
     .loginpage input {
-        color:rgb(130, 121, 112);
+        color: rgb(130, 121, 112);
         font-weight: 200;
-        padding: 8px;
-        margin: 8px;
-        border:rgb(66, 105, 157) solid 2px;
+        padding: 10px;
+        margin: 9px;
+        border: rgb(66, 105, 157) solid 2px;
+        width: 200px;
     }
     
     .loginpage button {
-        font-size: 10px;
+        font-size: 20px;
         background-color: transparent;
         border: rgba(21, 20, 20, 0.338) solid 1px;
-        margin-bottom: 8px;
+        margin-bottom: 50px;
         padding: 5px;
     }
 
 
     @media (min-width: 720px) {
         .loginpage {
-            background-image: none;
             display:flex;
             flex-direction: row-reverse;
      
@@ -75,7 +72,7 @@
   
         }
 
-        .flower {
+        /* .flower {
             background-image: url(../../assets/flower.jpeg);
             background-position: left;
             background-repeat: no-repeat;
@@ -84,7 +81,7 @@
             border: 1px solid black;
             background-size: cover !important;
 
-        }
+        } */
 
        
     }
